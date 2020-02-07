@@ -1,0 +1,16 @@
+{
+  "name": "chip8-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Dylanderv/chip8-ts.git",
+  "author": "Dylan Dervaux <dylan.dervaux@orange.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.7.5"
+  }
+}
