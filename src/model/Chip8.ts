@@ -75,6 +75,17 @@ export class Chip8 {
     this.decodeAndExecute(opcode);
 
     // Update Timers
+    this.handleTimers();
+  }
+
+  private handleTimers() {
+    if (this.dt > 0) {
+      this.dt -= 1;
+    }
+
+    if (this.st > 0) {
+      this.st -= 1;
+    }
   }
 
   private fetchOpcode() {
